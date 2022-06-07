@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../reg/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header id="header" class="header ">
+        <div class="header_container">
+            <div class="header_inner">
+                <div class="header_block1">
+                    <div class="header_blockin">
+               <div class="header_logo">
+                   <a href="../html.html" ><img src="../img/logo.jpg" alt=""></a>
+                   <div class="header_gps">
+                       <a href="#popup" class="header__phone"><img src="../icon/gps.png" alt=""></a>
+                       <div class="header_gps_text">
+                           <p>Алматы</p>
+                       </div>
+                   </div>
+                   <div class="header_find">
+                       <form action="#" method="get">
+                           <input class="pole" name="s" placeholder="Поиск товаров" type="search">
+                           <button type="submit"><img src="../icon/magnifying-glass-solid.svg" alt="Лупа пупа"></button>
+                         </form>
+                   </div>
+                   
+                   <div class="header_login">
+                       <a href=""><img src="../icon/user.svg" alt=""></a>
+                   </div>
+                   <div class="header_favorite">
+                       <a href=""><img src="../icon/favorite.svg" alt=""></a>
+                   </div>
+                   <div class="header_shop">
+                       <a href=""><img src="../icon/shop.svg  " alt=""></a>
+                   </div>
+               </div>
+           </div>
+           </div>
+           <div class="header_block2">
+               <div class="header_container2">
+               <div class="header_links">
+                   <nav class="nav">
+                       <a href="">Ковры</a>
+                       <a href="">Коврики</a>
+                       <a href="">Для ванной</a>
+                       <a href="">Дорожки</a>
+                       <a href="">Особенные ковры</a>
+                       <a href="">Центр поддержки  </a>
+                       <a href="">Контакты</a>
+                       
+                   </nav>
+               </div>
+               </div>
+           </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="block__reg">
+            <form id="regForm" action="/action_page.php">
+                <h1>Регистрация</h1>
+                <!-- One "tab" for each step in the form: -->
+                <div class="tab">Телефон
+                  <p><input placeholder="+7(__)___-__-__" oninput="this.className = ''" name="fname"></p>
+                </div>
+                <div class="tab">Контактные данные:
+                  <p><input placeholder="Пароль" oninput="this.className = ''" name="email"></p>
+                  <p><input placeholder="Логин" oninput="this.className = ''" name="phone"></p>
+                </div>
+                <div class="tab">Дата рождения:
+                  <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
+                  <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+                  <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+                </div>
+                <div class="tab">Авторизация:
+                  <p><input placeholder="Логин" oninput="this.className = ''" name="uname"></p>
+                  <p><input placeholder="Пароль" oninput="this.className = ''" name="pword" type="password"></p>
+                </div>
+                <div style="overflow:auto;">
+                  <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Назад</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Продолжить</button>
+                  </div>
+                </div>
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                </div>
+              </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_block1">
+                <dl>    
+                    <h2><a href="#">Каталог товаров</a></h2>
+                    <dt><a href="#">Ковры</a></dt>
+                    <dt><a href="#">Коврики</a></dt>
+                    <dt><a href="#">Дорожки</a></dt>
+                    <dt><a href="#">Для ванной</a></dt>
+                    <dt><a href="#">Особенные ковры</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block2">
+                <dl>
+                    <h2><a href="#">Личный кабинет</a></h2>
+                    <dt><a href="#">Личный кабинет</a></dt>
+                    <dt><a href="#">Мои заказы</a></dt>
+                    <dt><a href="#">Избранное</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block3">
+                <dl>
+                    <h2><a href="#">Центр поддержки</a></h2>
+                    <dt><a href="#">Контакты</a></dt>
+                    <dt><a href="#">Доставка</a></dt>
+                    <dt><a href="#">Возвраты</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block4">
+                <div class="footer_block4_1">
+                    <h2>Помощь и Контакты</h2>
+                        <div class="footer_block_4_1_1">
+                            <img src="../icon/phone.svg" alt="">
+                            +7 775 657 66 76
+                        </div>
+                        <div class="footer_block_4_1_2">
+                            <img src="../icon/mail.svg" alt="">
+                            info@kilem.kz
+                        </div>
+                </div>
+                <div class="footer_block4_2">
+                    <a href="https://ru-ru.facebook.com/" target="_blank"><img src="../icon/whatssap.svg" alt=""></a> 
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../icon/insta.svg" alt=""></a>
+                    <a href="https://www.whatsapp.com/?lang=ru" target="_blank"><img src="../icon/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer_block5">
+                <h2>Рассылка</h2>
+                <span>Подпишитесь, чтобы всегда<br>
+                быть в курсе наших новых акций</span>
+                <div class="footer_block5_button">
+                    <div class="footer_block5_email">
+                        <form action="#" method="get">
+                            <input class="pole_vvoda" name="s" placeholder="Ваш email" type="search">
+                            <button type="submit"><img src="../icon/copypast.svg" alt=""></button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/reg.js"></script>
+</body>
+</html>

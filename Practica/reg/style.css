@@ -1,0 +1,483 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;color:black;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+.header_logo img
+{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 79px;
+    top: 31px;
+    max-width: 100%;
+    display: block;
+}
+.header_gps img
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 359px;
+    top: 42px;
+    max-width: 100%;
+}
+.header_gps_text
+{
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 391px;
+    top: 44px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+.header_find
+{
+    position: absolute;
+    width: 602px;
+    height: 35px;
+    left: 519px;
+    top: 30px;
+    max-width: 100%;
+}
+.header-bot
+{
+    background-color: #bbbbbb; 
+    position: absolute;
+    width: 1515px;  
+    height: 78px;
+    left: 0px;
+    top: 112px;
+}
+.header-bot a
+{
+    text-decoration: none;
+    color: black;
+    font-family:'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    max-width: 100%;
+}
+.header-gps
+{
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 8.33%;
+    bottom: 1.13%;
+}
+.header-gps p
+{
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 391px;
+    top: 44px;
+}
+.header_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    left: 0px;
+    top: 112px;
+    background: #F9F9F9;
+}
+.nav a{
+margin-left: 92px;
+font-size: 18px;
+font-family: "Ubuntu";
+color: black;
+}
+.nav a:nth-child(1){
+    margin-left: 0px;
+}
+.header_container2{
+    max-width: 1283px;
+    margin: 0 auto;
+}
+.pole   
+{
+  width: 500px;
+  border-bottom:1px solid black;
+  padding:16px 0px;
+  opacity: 0.5;
+  max-width: 100%;
+}
+input::placeholder
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    opacity: 0.5;
+    
+}
+.header_find img
+{
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    right: 0;
+    left: 80%;
+    bottom:10%;
+    top: 50%;
+}
+
+.header_login
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 75.08%;
+    top: 16px;
+}
+.header_login img
+{
+    width: 24px;
+    height: 24px;
+    max-width: 100%;
+}
+.header_favorite
+{
+    position: absolute;
+    left: 80.08%;
+    right: 11.25%;
+    top: 16px;
+    bottom: 97.36%;
+}
+.header_favorite img
+{
+    width: 24px;
+    height: 24px;
+    max-width: 100%;
+}
+.header_shop
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 85%;
+    top: 16px;
+}
+.header_shop img
+{
+    width: 24px;
+    height: 24px;
+    max-width: 100%;
+}
+.footer_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    height: 281px;
+    left: 0px;
+    top: 800px;
+    background: #F2F2F2;
+}
+
+.footer_block1 h2
+{
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #1D1D1D;
+}
+.footer_block1 dt
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #1D1D1D;
+    opacity: 0.5;
+    margin:10px 10px 10px 0;
+}
+.footer_block2  
+{
+    
+}
+.footer_block2 h2
+{
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #1D1D1D;
+}
+.footer_block2 dt
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #1D1D1D;
+    opacity: 0.5;
+    margin:10px 10px 10px 0;
+}
+.footer_block3  
+{
+    
+}
+.footer_block3 h2
+{
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #1D1D1D;
+}
+.footer_block3 dt
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #1D1D1D;
+    opacity: 0.5;
+    margin:10px 10px 10px 0;
+}
+.footer_block4  
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer_block4_1 h2
+{
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #1D1D1D;
+}
+.footer_block_4_1_1
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #618C78;
+    margin: 10px;  
+    
+}
+.footer_block_4_1_2 
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 10px;
+    color: #618C78;
+}    
+.footer_block4_2
+{
+    display: flex;
+    
+}
+.footer_block4_2 img
+{
+    margin:10px;
+}
+.footer_block5
+{
+    
+}
+.footer_block5 h2
+{
+    margin-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #1D1D1D;
+}
+.footer_block5 span
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    color: #1D1D1D; 
+    opacity: 0.5;
+    
+}
+.pole_vvoda
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 265px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.footer_block5_email img
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #618C78;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 25px;
+    margin-left: 400px; 
+}
+a:hover
+{
+    color:rgba(211, 86, 86, 0.5);
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+.footer_block5_email button
+{
+    position: absolute;
+    right: 34%;
+    top:18%;
+}
+/* Регистрация */
+.reg_block
+{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+  }
+  
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;  
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 145%;
+    text-align: center;
+    color: #1D1D1D;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+#regForm button {
+    background-color: #CB4A4A;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px 0 0 0;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  .block__reg
+  {
+    position: absolute;
+    top:30%;
+    left:33%;
+    width: 494px;
+    height: 209px;
+  }

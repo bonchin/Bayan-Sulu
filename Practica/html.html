@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <title>Магазин Ковров</title>
+</head>
+<body>
+    <header id="header" class="header ">
+     <div class="header_container">
+         <div class="header_inner">
+             <div class="header_block1">
+                 <div class="header_blockin">
+            <div class="header_logo">
+                <a href="" target="_blank"><img src="img/logo.jpg" alt=""></a>
+                <div class="header_gps">
+                    <a href="#popup" class="header__phone"><img src="icon/gps.png" alt=""></a>
+                    <div class="header_gps_text">
+                        <p>Алматы</p>
+                    </div>
+                </div>
+                <div class="header_find">
+                    <form action="#" method="get">
+                        <input class="pole" name="s" placeholder="Поиск товаров" type="search">
+                        <button type="submit"><img src="icon/magnifying-glass-solid.svg" alt="Лупа пупа"></button>
+                      </form>
+                </div>
+                
+                <div class="header_login">
+                    <a href="reg/reg.html"><img src="icon/user.svg" alt=""></a>
+                </div>
+                <div class="header_favorite">
+                    <a href=""><img src="icon/favorite.svg" alt=""></a>
+                </div>
+                <div class="header_shop">
+                    <a href=""><img src="icon/shop.svg  " alt=""></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header_block2">
+            <div class="header_container2">
+            <div class="header_links">
+                <nav class="nav">
+                    <a href="">Ковры</a>
+                    <a href="">Коврики</a>
+                    <a href="">Для ванной</a>
+                    <a href="">Дорожки</a>
+                    <a href="">Особенные ковры</a>
+                    <a href="">Центр поддержки  </a>
+                    <a href="">Контакты</a>
+                    
+                </nav>
+            </div>
+            </div>
+        </div>
+         </div>
+     </div>
+     <a class="back_to_top" title="Наверх">↑</a>
+     <section>
+         <div class="header__adaptive">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu__adaptive">
+                <nav>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Ковры</a></li>
+                    <li><a href="#">Коврики</a></li>
+                    <li><a href="#">Для ванной</a></li>
+                    <li><a href="#">Дорожки</a></li>
+                    <li><a href="#">Особенные ковры</a></li>
+                    <li><a href="#">Центр поддержки</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Вход/регистрация</a></li>
+                </nav>
+            </div>
+         </div>
+     </section>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="banner_container">
+                <div class="block1">
+                    <h2>Новая коллекция<br>
+                        ковров Venetta</h2>
+                    <div class="block1_button">
+                        <button class="block1_button_b">Смотреть все</button>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="block">
+                        
+                        <div class="block_apple">
+                            <div class="block2_button">
+                                <button class="block2_button_b">160.000₸</button>
+                            </div>
+                            <div class="block_img1">
+                                <img src="img/image 6.svg" alt="">
+                            </div>
+                            <div class="block_img2">
+                                <img src="img/image 5.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_slaider_one">
+            <div class="wrapper">
+                <h2>Новинки</h2>
+                <p>Все новинки</p>
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                Новинки
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h3>Цена</h3>
+                                <h4>160.000₸</h4>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h3>В рассрочку</h3>
+                                <h4>13.333₸ <span>x 12 мес</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                Новинки
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h3>Цена</h3>
+                                <h4>160.000₸</h4>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h3>В рассрочку</h3>
+                                <h4>13.333₸ <span>x 12 мес</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item filter">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                Новинки
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h3>Цена</h3>
+                                <h4>160.000₸</h4>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h3>В рассрочку</h3>
+                                <h4>13.333₸ <span>x 12 мес</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                Новинки
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>	
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h3>Цена</h3>
+                                <h4>160.000₸</h4>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h3>В рассрочку</h3>
+                                <h4>13.333₸ <span>x 12 мес</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="block_slaider_two">
+            <div class="wrapper">
+                <h2>Скидки</h2>
+                <p>Все Скидки</p>
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                -20% 
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button">
+                                    <img src="img/header.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h5>Старая цена</h6>
+                                <h6>160.000₸</h6>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h5>Новая цена</h6>
+                                <h6>100.000₸ </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                -20% 
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h5>Старая цена</h6>
+                                <h6>160.000₸</h6>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h5>Новая цена</h6>
+                                <h6>100.000₸ </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item filter">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                -20% 
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h5>Старая цена</h6>
+                                <h6>160.000₸</h6>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h5>Новая цена</h6>
+                                <h6>100.000₸ </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item_head">
+                            <div class="slider__item_head_new">
+                                -20% 
+                            </div>
+                            <div class="slider__item_head_heart">
+                                <button class="slider__item_head_heart_button"><img src="icon/header.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="slider__item_cover">
+                            <img src="img/covrik.svg" alt="">
+                        </div>
+                        <div class="slider__item_info">
+                            <div class="slider__item_info_1">
+                                Aster Q893A LVIZON <br>LVIZON
+                            </div>
+                            <div class="slider__item_info_2">
+                                Размер: 60x100<br>
+                                Производитель: Казахстан
+                            </div>	
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <div class="slider__item_price">
+                            <div class="slider__item_price1">
+                                <h5>Старая цена</h6>
+                                <h6>160.000₸</h6>
+                            </div>
+                            <div class="slider__item_price2">
+                                <h5>Новая цена</h6>
+                                <h6>100.000₸ </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_block1">
+                <dl>    
+                    <h2><a href="#">Каталог товаров</a></h2>
+                    <dt><a href="#">Ковры</a></dt>
+                    <dt><a href="#">Коврики</a></dt>
+                    <dt><a href="#">Дорожки</a></dt>
+                    <dt><a href="#">Для ванной</a></dt>
+                    <dt><a href="#">Особенные ковры</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block2">
+                <dl>
+                    <h2><a href="#">Личный кабинет</a></h2>
+                    <dt><a href="#">Личный кабинет</a></dt>
+                    <dt><a href="#">Мои заказы</a></dt>
+                    <dt><a href="#">Избранное</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block3">
+                <dl>
+                    <h2><a href="#">Центр поддержки</a></h2>
+                    <dt><a href="#">Контакты</a></dt>
+                    <dt><a href="#">Доставка</a></dt>
+                    <dt><a href="#">Возвраты</a></dt>
+                </dl>
+            </div>
+            <div class="footer_block4">
+                <div class="footer_block4_1">
+                    <h2>Помощь и Контакты</h2>
+                        <div class="footer_block_4_1_1">
+                            <img src="icon/phone.svg" alt="">
+                            +7 775 657 66 76
+                        </div>
+                        <div class="footer_block_4_1_2">
+                            <img src="icon/mail.svg" alt="">
+                            info@kilem.kz
+                        </div>
+                </div>
+                <div class="footer_block4_2">
+                    <a href="https://ru-ru.facebook.com/" target="_blank"><img src="icon/whatssap.svg" alt=""></a> 
+                    <a href="https://www.instagram.com/" target="_blank"><img src="icon/insta.svg" alt=""></a>
+                    <a href="https://www.whatsapp.com/?lang=ru" target="_blank"><img src="icon/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer_block5">
+                <h2>Рассылка</h2>
+                <span>Подпишитесь, чтобы всегда<br>
+                быть в курсе наших новых акций</span>
+                <div class="footer_block5_button">
+                    <div class="footer_block5_email">
+                        <form action="#" method="get">
+                            <input class="pole_vvoda" name="s" placeholder="Ваш email" type="search">
+                            <button type="submit"><img src="icon/copypast.svg" alt=""></button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup_body">
+            <button id="close">&times;</button>
+            <div class="popup__title">Выберите ваш город</div>
+            <div class="popup__finder">
+                <form action="#" method="get">
+                    <input class="popup__find" name="s" placeholder="Найти город" type="search">
+                    <button type="submit"><img src="icon/magnifying-glass-solid.svg" alt="Лупа пупа"></button>
+                </form>
+            </div>
+            <div class="popup__text">
+            <div class="popup__block1">
+                <dt>Алматы</dt>
+                <dt>Нур-Султан</dt>
+                <dt>Аксай</dt>
+                <dt>Аксу</dt>
+                <dt>Актау</dt>
+                <dt>Актобе</dt>
+                <dt>Алтай</dt>
+                <dt>Арысь</dt>
+                <dt>Атырау</dt>
+                <dt>Балшах</dt>
+                <dt>Бейнеу</dt>
+                <dt>Есик</dt>
+            </div>
+            <div class="popup__block2">
+                <dt>Жанаозен</dt>
+                <dt>Жаркент</dt>
+                <dt>Жезказган</dt>
+                <dt>Жетысай</dt>
+                <dt>Капшагай</dt>
+                <dt>Караганда</dt>
+                <dt>Каскелен</dt>
+                <dt>Кентау</dt>
+                <dt>Кокшетау</dt>
+                <dt>Кордай</dt>
+                <dt>Костанай</dt>
+                <dt>Кульсары</dt>
+            </div>
+            <div class="popup__block3">
+                <dt>Кызылорда</dt>
+                <dt>Лисаковск</dt>
+                <dt>Павлодар</dt>
+                <dt>Петропавловск</dt>
+                <dt>Рудный</dt>
+                <dt>Сарань</dt>
+                <dt>Сатпаев</dt>
+                <dt>Семей</dt>
+                <dt>Степногорск</dt>
+                <dt>Талгар</dt>
+                <dt>Костаней</dt>
+                <dt>Талдыкорган</dt>
+            </div>
+            <div class="popup__block4">
+                <dt>Тараз</dt>
+                <dt>Текели</dt>
+                <dt>Темиртау</dt>
+                <dt>Туркестан</dt>
+                <dt>Шахтинск</dt>
+                <dt>Шу</dt>
+                <dt>Шымкент</dt>
+                <dt>Щучинск</dt>
+                <dt>Экибастуз</dt>
+                <dt>Шиели</dt>
+                <dt>Усть-Каменогорск</dt>
+            </div>
+            </div>
+         </div>
+    </div>
+    </footer>
+    
+    <!-- Подключаем jQuery -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<!-- Подключаем слайдер Slick -->
+			<script src="js/slick.min.js"></script>
+			<!-- Подключаем файл скриптов -->
+			<script src="js/script.js"></script>
+            <script src="js/popup-script.js"></script>
+            <script src="js/scroll.js"></script>
+            <script src="js/burger.js"></script>
+            <script src="js/preloader.js"></script>
+                    <!-- Прелоадер -->
+  <div class="preloader">
+    <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+      </path>
+    </svg>
+  </div>
+</body>
+</html>
